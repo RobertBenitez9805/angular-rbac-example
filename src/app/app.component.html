@@ -1,0 +1,8 @@
+<div class="container">
+    <ul>
+        <li *showForRoles="['ROLE_USER']">User</li>
+        <li *showForRoles="['ROLE_ADMIN']">Admin</li>
+        <li *showForRoles="['ROLE_MODERATOR']">Moderator</li>
+    </ul>
+</div>
+<router-outlet></router-outlet>
